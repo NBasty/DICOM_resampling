@@ -9,7 +9,7 @@ It is all based in scimat format, used in the Gerardus repository.
 ## Files
 
 ### scimat_insert_extract.m
-This function resamples data. If a 2D (stack or single) image is used as output and a 3D as its output, the function will generate a synthetic acquisition based on the metadata of both files.
+This function resamples data. If a 2D (stack or single) image is set as output and a 3D as its output, the function will generate a synthetic acquisition based on the metadata of both files. If, on the other hand, 3D is set as the output and 2D as the input, the 2D data will be inserted into a 3D array. It is meant to be used to populate an empty volume, generated with the function scimat_make3dframe.m below.
 
 ### scimat_squeeze_time.m
 This function removes the time dimension. Needed because this works with static frames only.
