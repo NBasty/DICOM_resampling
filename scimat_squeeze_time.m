@@ -1,3 +1,5 @@
+% Author: Nicolas Basty 
+
 function [scimatfile] = scimat_squeeze_time(scimatfile,frame)
 % squeeze obsolete time dimension 
        for k = 1:numel(scimatfile)
