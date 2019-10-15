@@ -1,14 +1,15 @@
+% Author: Nicolas Basty 
+
 function out = scimat_insert_extract(scimat_in,scimat_out,init_rec)
-% ascimat_insert_extract either extracts synthetic MRI 2D acquisitions when given a 3D
-% image as input and 2D as ouput, or inserts 2D images into a 3D array in the other case. 
-% The third, optional, input variable is to be added (just put 1) when you want overlapping
-% slices to be averaged(say for example to initialise).
+   % ascimat_insert_extract either extracts synthetic MRI 2D acquisitions when given a 3D
+   % image as input and 2D as ouput, or inserts 2D images into a 3D array in the other case. 
+   % The third, optional, input variable is to be added (just put 1) when you want overlapping
+   % slices to be averaged(say for example to initialise).
 
 %% case 1, 2D input 2D and 3D output
-% Insert slicesThis 
-% For context of the paper, this to either  initialise the image using 
-% a set of LR slices to put the residuals back into 3D space in
-% optimisation
+   % Insert slicesThis 
+   % For context of the paper, this to either  initialise the image using 
+   % a set of LR slices to put the residuals back into 3D space in optimisation
 
 if numel(size(scimat_in(1).data)) == 2
    Sci_HR = scimat_out;
@@ -71,7 +72,7 @@ if exist('init_rec')
    end
 end
 %% case 2, 3D input 2D output  
-%  Extract slices.
+   %  Extract slices.
 if numel(scimat_in) == 1 && numel(size(scimat_in.data)) == 3
    out = scimat_out;
    out_spacing_x = scimat_in.axis(1).spacing;
