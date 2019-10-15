@@ -17,9 +17,6 @@ This function removes the time dimension. Needed because this works with static 
 ### scimat_make3Dframe.m
 This function created an empty 3D scimat array. Needed when 2D data is to be inserted into an empty 3D array. 
 
-### scimat_dcm2scimat.m
-I correct an error in the file on gerardus that populates the slice thickness (z-resolution) with a wrong value. 
-
 The code was developed for the optimisation algorithm in the following paper. 
 
 * Basty, N., McClymont, D., Teh, I., Schneider, J.E. and Grau, V., 2017. Reconstruction of 3D Cardiac MR Images from 2D Slices Using Directional Total Variation. In Molecular Imaging, Reconstruction and Analysis of Moving Body Organs, and Stroke Imaging and Treatment (pp. 127-135). Springer, Cham.
