@@ -22,7 +22,3 @@ The code was developed for the optimisation algorithm in the following paper.
 * Basty, N., McClymont, D., Teh, I., Schneider, J.E. and Grau, V., 2017. Reconstruction of 3D Cardiac MR Images from 2D Slices Using Directional Total Variation. In Molecular Imaging, Reconstruction and Analysis of Moving Body Organs, and Stroke Imaging and Treatment (pp. 127-135). Springer, Cham.
 
 At every iteration, the resampling function (scimat_insert_extract.m) is used to generate synthetic slices to be compared with the ground truth as well as inserting 2D data back into the 3D volume that is being reconstructed.
-
-# To do
-* Find freely available data
-* add test.m file that works with that data
