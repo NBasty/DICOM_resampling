@@ -1,10 +1,10 @@
 # DICOM_resampling
 Use this code to resample 2D and 3D medical images in matlab
 
-The matlab code in this repository is used to resample 2D and 3D medical imaging data (raw DICOM). Either insert slices into a volume or extract slices from a volume. It was developed for MRI but should works with others too. I have used it on MRI (cardiac, pre-clinical cardiac, abdominal, whole body, multiecho single slice) as well as abdominal CT.
+The matlab code in this repository is used to resample 2D and 3D medical imaging data (raw DICOM). Either insert slices into a volume or extract slices from a volume. It was developed for MRI but should works with others too. I have used it on various MRI (cardiac, abdominal, whole body...) as well as abdominal CT.
 
-You will need the gerardus toolbox https://github.com/vigente/gerardus to run the files.
-It is all based in scimat format, used in the Gerardus repository. 
+You will need the Gerardus toolbox https://github.com/vigente/gerardus to run the files.
+It is all based on the scimat format, as used in the Gerardus repository. 
 
 ## Files
 
